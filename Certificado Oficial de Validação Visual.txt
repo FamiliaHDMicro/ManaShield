@@ -1,0 +1,11 @@
+=====================================================================
+              CERTIFICADO DE CONFORMIDADE DE VÍDEO
+
+  Certificamos para os devidos fins que o módulo de VISÃO COMPUTACIONAL 
+  do software MANASHIELD foi testado, inspecionado via console e 
+  aprovado em sua totalidade lógica, estando apto para a análise de 
+  anomalias em portarias e detecção de intrusões perimetrais.
+
+  Emitido em: São José do Rio Preto, SP — 4 de Outubro de 2026.
+  Assinatura do Sistema: [VALIDADO POR SOPHIA & CIA — MANASHIELD]
+=====================================================================

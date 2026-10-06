@@ -1,0 +1,30 @@
+{
+    "sistema": "ManaShield Security Intelligence",
+    "modulo": "Governança e Privacidade de Dados (LGPD)",
+    "condominio": "Residencial Bella Vista",
+    "data_emissao": "2026-10-04 05:49:11",
+    "status_conformidade": "CONFORME",
+    "diretrizes_aplicadas": [
+        {
+            "item": "Retenção de Imagens de Câmeras (Alice Visão)",
+            "politica": "Descarte automático após 30 dias, exceto em caso de incidente travado pela Sophia.",
+            "status": "Ativo"
+        },
+        {
+            "item": "Criptografia de Logs de Acesso e Áudio",
+            "politica": "Criptografia de ponta a ponta (AES-256) em repouso e trânsito.",
+            "status": "Ativo"
+        },
+        {
+            "item": "Minimização de Dados Biométricos",
+            "politica": "Armazenamento apenas de hashes/vetores matemáticos, sem imagens brutas de faces.",
+            "status": "Ativo"
+        },
+        {
+            "item": "Escuta Passiva (Alice Voice)",
+            "politica": "Áudio processado em buffer volátil sem gravação permanente em disco, respeitando reuniões privadas.",
+            "status": "Ativo"
+        }
+    ],
+    "assinatura_digital": "SHA-256: 8f94b8e2... [VALIDADO POR SOPHIA & CIA]"
+}

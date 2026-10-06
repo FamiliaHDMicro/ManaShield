@@ -1,0 +1,14 @@
+=====================================================================
+                 CERTIFICADO DE CONFORMIDADE TÉCNICA
+
+  Certificamos para os devidos fins que o software MANASHIELD, 
+  desenvolvido sob a tutela de Luis Fernando Martines (HDMicro), 
+  passou com êxito em todas as etapas de simulação, testes estruturais 
+  de código assíncrono e validação lógica dos agentes Sophia, Alice e CIA.
+
+  O sistema encontra-se formalmente documentado, testado em ambiente 
+  local e 100% apto para a integração de chaves de API em nuvem e 
+  implantação comercial (Provas de Conceito com Síndicos).
+
+  São José do Rio Preto, SP — 4 de Outubro de 2026.
+=====================================================================

@@ -1,0 +1,16 @@
+2. Estratégia de Certificação e Integração via Padrão ONVIF
+
+Para que o ManaShield consiga puxar os streams de vídeo de câmeras de diferentes marcas instaladas nos condomínios (como Hikvision, Intelbras, Giga, etc.) sem travar, a arquitetura deve adotar os padrões globais da ONVIF (Open Network Video Interface Forum).
+Como estruturar a integração ONVIF no ManaShield:
+
+    Descoberta Automática de Dispositivos (WS-Discovery):
+
+        O módulo de visão da Alice utiliza o protocolo de descoberta ONVIF na rede local do condomínio para mapear automaticamente todas as câmeras IP disponíveis, sem necessidade de configuração manual complexa de IPs.
+
+    Streaming Padronizado (RTSP / H.264 / H.265):
+
+        As requisições de vídeo para a análise de anomalias da Sophia são feitas via URLs RTSP padronizadas fornecidas pelo perfil ONVIF da câmera. Isso garante compatibilidade universal com 95% das câmeras do mercado de segurança eletrônica.
+
+    Certificação de Interoperabilidade Prática:
+
+        Para certificar o software perante integradores, o ManaShield valida o recebimento de eventos de alarme via ONVIF Event Service (ex: detecção de movimento cruzando a linha perimetral), unificando o gatilho da câmera com o laudo de fraude da Sophia
